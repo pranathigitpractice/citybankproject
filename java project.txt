@@ -1,0 +1,63 @@
+
+1   <html>
+2      <head>
+3      <meta name="viewport" content="width=device-width, initial=scale=1">
+4     <title> Login Page </title>
+5     <style>
+6    Body {
+7      font-family: Calibri, Helvetica, sans-serif;
+8      background-color: pink;
+9     }
+10   button {
+11            background-color: #4CAF50;
+12            width: 100%;
+13             color: orange;
+14             padding: 15px;
+15             marign: 10px 0px;
+16             border: none;
+17             cursor: pointer;
+18              }
+19          form {
+20              border: 3px solid #f1f1f1;
+21             }
+22           input[type=text], input[type=password] {
+23            width: 100%;
+24            margin: 8px 0;
+25            padding: 12px 20px;
+26            display: inline-block;
+27            border: 2px solid green;
+28            box-sizing: border-box;
+29         }
+30        button:hover {
+31            opacity: 0.7;
+32
+33         }
+34          .cancelbtn {
+35             width: auto;
+36             padding: 10px 18px;
+37             margin:10px 5px;      
+38         }
+39
+40
+41         .container{
+42            padding: 25px;
+43            background-color: lightblue;
+44           }
+45         </style>
+46         </head>
+47         <body>
+48             <center> <h1> Hello Azure Batch </h1> </center>
+49             <form>
+50                <div class="container">
+51                   <lable>student name : </lable>         
+52                   <input type="text" placeholder="Enter Username" name="username" required>
+53                   <lable>password : </lable>
+54                   <input type="password" placeholder="Enter Password" name="password" required>
+55                   <button type="submit">Login</button>
+56                   <input type ="checkbox" checked="checked"> Remember me
+57                   <button type="button" class="canclebtn"> Cancle</button>
+58                   Forgot <a href="#"> password? </a>
+59              </div>
+60         </form>
+61      </body>
+62      </html>
